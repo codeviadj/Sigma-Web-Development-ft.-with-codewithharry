@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+         /* Element selector */
+        div
+        {
+            background-color: red;
+            color: yellow;
+        }
+        /* Class selector */
+        .yellow{
+            background-color: aqua;
+            color: brown;
+        }
+        /* ID selector */
+        #green{
+            background-color: antiquewhite;
+            color: red;
+        }
+        /* Child selector */
+        div > h4{
+            background-color: bisque;
+            color: blue;
+        }
+        /* Descendant selector */
+        nav h3{
+            background-color: yellow;
+            color: navy;
+        }
+        /* Universal selector */
+        *{
+            margin: 10;
+            padding: 10;
+        }
+        /* Pseudo selector */
+        a:visited{
+            color: orange;
+        }
+        a:link{
+            color: lime;
+        }
+        a:active{
+            background-color: blue;
+        }
+        a:hover{
+            background-color: olivedrab;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>
+            <div>
+            I'm Element selector.
+            </div>
+        </li>
+        <li>
+            <p class="yellow">I'm Class selector.</p>
+            
+        </li>
+        <li>
+            <h3 id="green">I'm ID selector.</h3>
+        </li>
+        <li>
+            <div>
+                
+                <h4>I'm Child selector.</h4>
+            </div>
+        </li>
+        <li>
+            <nav>
+                <h2>
+                <!-- shock -->
+                <h3>I'm Descendent selector.</h3>
+                </h2>
+            </nav>
+        </li>
+        <li>
+            <h3>I'm Universal selector.</h3>
+        </li>
+        <li>
+            <a href="https://www.flipkart.com/">Flipkart</a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/">Facebook</a>
+        </li>
+    </ol>
+</body>
+</html> 
