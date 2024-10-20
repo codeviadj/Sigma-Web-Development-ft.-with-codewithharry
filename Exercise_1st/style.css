@@ -1,0 +1,17 @@
+h2{
+    background-color: lime;
+    font-style: italic;
+}
+h3{
+    background-color: yellowgreen;
+    font-style: initial;
+}
+header{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer
+{
+    background-color: orangered;
+    font-style: oblique;
+}
