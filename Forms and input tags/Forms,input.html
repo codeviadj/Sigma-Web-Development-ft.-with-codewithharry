@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Let's Learn</title>
+</head>
+<body>
+    <h2>Apply for TA</h2>
+    <form action="Post"></form>
+    <div>
+        <label for="username">Your username:-</label>
+        <input type="text" id="username" placeholder="Enter your full name"required>
+    </div>
+    <div>
+        <input type="radio" id="male" name="gender" value="male"required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female"required>
+        <label for="female">Female</label>
+        <link rel="stylesheet" href="style.css">
+    </div>
+    <div>
+        <input type="checkbox" name="subscribe" id="subscribe">
+        <label for="subscribe">Subscribe For News Letter</label>
+    </div>
+    <div>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter Your Comment Here......"></textarea>
+    </div>
+    <div>
+        <select name="Courses" >
+        <option value="Computer Science">Computer Science</option>
+        <option value="Machine Learning">Machine Learning</option>
+        <option value="Data Science">Data Science</option>
+        <option value="Network Engineering">Network Engineering</option>
+        <option value="DSA">DSA</option>
+    </select>
+    </div>
+</body>
+</html>
