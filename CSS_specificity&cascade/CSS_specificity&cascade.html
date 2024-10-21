@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity & Cascade</title>
+    <style>
+        /* universal selector point is 0 */
+        * {
+            color: black;
+
+        }
+
+        /* Point is 100 */
+        #Algorithm {
+            color: white;
+            background-color: blue;
+        }
+
+        /* Point is 10 */
+        .Cascade {
+            color: yellow;
+            background-color: red;
+        }
+
+        /* Important selector point is 10000 */
+        p {
+            color: yellow !important;
+            background-color: teal !important;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Inline selector's point is 1000 -->
+    <p style="color: red; background-color: yellow;" class="Cascade" id="Algorithm">
+        This is the Cascade algorithm.
+    </p>
+
+</body>
+
+</html>
